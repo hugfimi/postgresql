@@ -28,6 +28,7 @@
     - "postgresql{{ postgresql_version_terse }}-server"
     - "postgresql{{ postgresql_version_terse }}"
     - "postgresql{{ postgresql_version_terse }}-contrib"
+    - "postgresql{{ postgresql_version_terse }}-devel"
 
 - name: PostgreSQL | PGTune
   yum:
